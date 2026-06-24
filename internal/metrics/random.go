@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-var Random = []Status{
+var Random = []status{
 	StatusOk,
 	StatusWarning,
 	StatusError,

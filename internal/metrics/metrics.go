@@ -1,3 +1,4 @@
+// Package metrics register metrics for handlers
 package metrics
 
 import (

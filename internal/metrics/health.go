@@ -11,7 +11,7 @@ func (m *metrics) HealthStatus() http.HandlerFunc {
 		w.Header().Set("Content-type", "application/json")
 
 		health := pingData{
-			Status: setStatus(HealthDbRandom),
+			Status: setStatus(HealthDBRandom),
 		}
 
 		if health.Status == "fail" {

@@ -11,7 +11,7 @@ func (m *metrics) DBStatus() http.HandlerFunc {
 		w.Header().Set("Content-type", "application/json")
 
 		db := pingData{
-			Status:  setStatus(HealthDbRandom),
+			Status:  setStatus(HealthDBRandom),
 			Service: "database",
 		}
 
