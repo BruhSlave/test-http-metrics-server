@@ -2,7 +2,6 @@
 
 Simple HTTP server written in Go for testing monitoring, health checks and Prometheus metrics collection.
 
----
 ## Endpoints
 
 | Endpoint   | Description               |
