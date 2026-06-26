@@ -14,7 +14,7 @@ func workAnimation() {
 	frames := []string{"|", "/", "-", "\\"}
 	for {
 		for _, frame := range frames {
-			fmt.Printf("\r%s Server has started...", frame)
+			fmt.Printf("\r%s Server has started at port 8090...", frame)
 			time.Sleep(150 * time.Millisecond)
 		}
 	}
