@@ -1,0 +1,8 @@
+global:
+  smtp_hello: 'localhost:25'
+  smtp_from: 'abc@example.org'
+route:
+  receiver: example-email 
+  group_by: [alertname]
+receivers:
+  - name: example-email
